@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import GithubStar from '@/components/utils/github-star';
+// import GithubStar from '@/components/utils/github-star';
 import { GithubIcon, GlobeIcon, TwitterIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -173,7 +173,7 @@ const Home = () => {
                   <h3 className="lg:block">Librelinks</h3>
                 </Link>
 
-                <div className="relative items-center w-28 z-10 md:absolute md:inset-y-0 md:right-0">
+                {/* <div className="relative items-center w-28 z-10 md:absolute md:inset-y-0 md:right-0">
                   <Link
                     className="group inline-flex items-center gap-2 px-4 text-sm  bg-slate-900 border rounded-3xl text-white w-[116px] h-[35px] justify-center font-semibold transition-colors hover:bg-slate-700"
                     rel="noopener noreferrer"
@@ -181,12 +181,12 @@ const Home = () => {
                   >
                     {isAuthenticated ? 'Admin' : 'Login'}
                   </Link>
-                </div>
+                </div> */}
               </nav>
             </div>
             <div className="px-4 mx-auto mt-24 max-w-7xl sm:mt-16 sm:px-6">
               <div className="flex justify-center items-center mb-6">
-                <a
+                {/* <a
                   className="group inline-flex items-center gap-2 px-4 py-4 text-sm bg-gray-50 border rounded-3xl text-gray-500 w-[180px] h-[35px] justify-center transition-colors hover:bg-gray-100"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -196,7 +196,7 @@ const Home = () => {
                     <GithubStar />
                   </div>{' '}
                   Star us on Github
-                </a>
+                </a> */}
               </div>
               <div className="text-center">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
@@ -240,15 +240,15 @@ const Home = () => {
         <div className="bg-slate-900">
           <div className="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
             <h2 className="text-lg font-semibold tracking-wide text-center text-gray-400">
-              Made by{' '}
-              <a
+              X
+              {/* <a
                 className="hover:text-emerald-500"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://twitter.com/NerdyProgramme2"
               >
                 @urdadx
-              </a>
+              </a> */}
             </h2>
             <div className="flex items-center gap-4 justify-center mt-4">
               <a
